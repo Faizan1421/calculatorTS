@@ -1,9 +1,6 @@
 # calculatorTS
-For Installing use command
-# npm i faizan-calc
-create a JS file by any name in your directory and import packege like this 
-const faizan = require("faizan-calc")
+# For Installing globally use this command in Terminal
+ npm i faizan-calc -g
 
-
-# Go to your terminal and run this command 
-node <yourfilename.js>
+# Now Go to your terminal and run this command 
+npx faizan-calc
