@@ -14,8 +14,7 @@
   "scripts": {
     "start": "tsc && npm run only-start",
     "only-start": "node ./dist/app.js",
-    "tsc": "tsc",
-    "prepare": "npm run start"
+    "tsc": "tsc"
   },
   "files": ["dist/**/*"]
 }
