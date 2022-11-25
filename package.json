@@ -1,9 +1,10 @@
 {
 "name": "calculator-inquirer",
-"version": "0.0.1",
+"version": "1.0.0",
 "description": "calculator built by using inquirer and Typescript ",
 "main": "dist/app.js",
-"author": "Faizan Tayyab",
+"types": "dist/app.js.map",
+"author": "Faizan Tayyab - faizan1421@gmail.com",
   "dependencies": {
     "inquirer": "^8.0.0"
   },
@@ -13,6 +14,8 @@
   "scripts": {
     "start": "tsc && npm run only-start",
     "only-start": "node ./dist/app.js",
-    "tsc": "tsc"
-  }
+    "tsc": "tsc",
+    "prepare": "npm run start"
+  },
+  "files": ["dist/**/*"]
 }
