@@ -1,5 +1,5 @@
 {
-"name": "calculator-inquirer",
+"name": "faizan-calc",
 "version": "1.0.0",
 "description": "calculator built by using inquirer and Typescript ",
 "main": "dist/app.js",
