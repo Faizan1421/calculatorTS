@@ -1,10 +1,11 @@
 {
 "name": "faizan-calc",
-"version": "1.0.0",
+"version": "1.0.2",
 "description": "calculator built by using inquirer and Typescript ",
 "main": "dist/app.js",
 "types": "dist/app.js.map",
 "author": "Faizan Tayyab - faizan1421@gmail.com",
+"bin": "dist/app.js",
   "dependencies": {
     "inquirer": "^8.0.0"
   },
